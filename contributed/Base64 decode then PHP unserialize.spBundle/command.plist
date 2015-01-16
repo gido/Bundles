@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Gilles Doge</string>
+	<key>category</key>
+	<string>Format</string>
+	<key>command</key>
+	<string>#!/usr/bin/php
+
+&lt;?php
+$input = fgets(STDIN);
+printf(
+   "&lt;pre style=\"white-space: pre-wrap;\"&gt;%s&lt;/pre&gt;",
+   print_r(unserialize(base64_decode($input)), true)
+);
+</string>
+	<key>contact</key>
+	<string>tvyyrf.qbtr@tznvy.pbz</string>
+	<key>description</key>
+	<string>Decode Base64 Value</string>
+	<key>input</key>
+	<string>selectedtext</string>
+	<key>input_fallback</key>
+	<string>entirecontent</string>
+	<key>keyEquivalent</key>
+	<string></string>
+	<key>name</key>
+	<string>Base64 decode &amp; PHP Unserialize</string>
+	<key>output</key>
+	<string>showashtml</string>
+	<key>scope</key>
+	<string>inputfield</string>
+	<key>uuid</key>
+	<string>22A4E01B-40BE-4F30-99F7-02F4CCB3AA8E</string>
+</dict>
+</plist>
